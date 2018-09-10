@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+nav {
+    font-family: 'Bowlby One SC', cursive;
+    background: #fff;
+    color:#520975;
+    overflow: auto;
+    float: auto;
+    position: sticky;
+}
+nav ul{
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width:450px;
+}
+nav li{
+    float: left;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    padding: 8px 0px;
+}
+nav a:hover{
+    color: #f00;
+}
+.sub{
+    width:100%;
+    height:40px;
+    background-color:#520975;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:10px;
+}
+.sub li{
+    text-align: center;
+    display: inline-flex;
+    color:#fff;
+    font-size:14px;
+}
+.sub li:hover{
+    opacity:.5;
+}
+.lit{
+    color:#fff;
+    text-decoration:none;
+}
+
+body{
+    display:flex; 
+    align-items: center;
+    flex-direction:column; 
+    justify-content:flex-end;
+    width:100%;
+    align-content: center;
+    margin:auto;
+    font-family: 'Bowlby One SC', cursive;
+}
+.pimg1{
+    background-image: url("./images/dball10.jpg");
+    min-height: 100%;
+    height:400px;
+    width:100%;
+
+}
+.pimg2{
+    background-image: url("./images/dball.jpg");
+    min-height: 100%;
+    height:400px;
+    width:100%;
+
+}
+.pimg1, .pimg2{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+.zoom{
+    transform: .2s;
+}
+.zoom:hover{
+    transform: scale(1.1)
+}
+.pic:hover{
+  opacity:.5;  
+}
+p{
+    line-height: 35px;
+}
+.bigger{
+    font-size:50px;
+}
+.sectionone{
+    width: 100%;
+    clear: both;
+    text-align:center;
+}
+.sectiontwo{
+    width:100%;
+    height:600px;
+    background-color: #520975;
+    clear: both;
+}
+.sectionthree{
+    width:100%;
+    height:420px;
+    background-color: #f3b932;
+    clear: both;
+}
+.sectionfour{
+    width:100%;
+    height:650px;
+    background-color: #18c2e6;
+    clear: both;
+}
+button{
+    background-color: #f00;
+    border:none;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width:300px;
+    height:50px;
+}
+button:hover{
+    background-color: #fff;
+    color: #f00;
+}
+form{
+    position: center;
+    width: 955px;
+    position: relative;
+}
+.pimg5{
+    background-image: url("./images/ball11.jpg");
+    min-height: 100%;
+    height:400px;
+    width:100%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer{
+    background-color: #114b59;
+    width:100%;
+    text-align: center;
+}
+.center{
+    margin:auto;
+    width:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center
+}
+@media(max-width:568px){
+    .pimg1, .pimg2{
+        background-attachment: scroll;
+    }
+}
